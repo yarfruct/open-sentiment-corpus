@@ -4,6 +4,7 @@ This repository contains OpenSentimentCorpus, a sentence-level sentiment dataset
 
 OpenSentimentCorpus is a derivative of [OpenCorpora](http://opencorpora.org/), an open corpus of Russian texts.
 
+
 ## Markup
 
 1. All the sentences shorter than 7 words were exlcuded.
@@ -20,6 +21,7 @@ There are three files in the repository:
 * `opensentimentcorpus-final-by-majority.csv` contains only final sentiments calculated according to the majorities of the marks;
 * `opensentimentcorpus-final-by-total-agreement.csv`;
 * `opensentimentcorpus-all-marks.csv` contains all the evaluators' marks.
+
 
 ## Evaluators
 
@@ -43,7 +45,20 @@ There are three files in the repository:
 * Vladislav Petryakov (Петряков Владислав Леонидович)
 
 
-## License
+## Terms of use
+Please cite
+```bibtex
+@article{poletaev2022recursive,
+    title   = {Recursive Sentiment Detection Algorithm for Russian Sentences},
+    author  = {Poletaev, Anatoliy Y. and Paramonov, Ilya V.},
+    journal = {Modeling and Analysis of Information Systems},
+    volume  = {29},
+    number  = {2},
+    pages   = {134--147},
+    year    = {2022},
+    doi     = {10.18255/1818-1015-2022-2-134-147}
+}
+```
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br/>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>
 
